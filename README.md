@@ -1,2 +1,6 @@
 # MinMax2
 Finds the two largest and smallest elements in an array using two algorithms
+
+This project is designed to work on arrays of size 2^k, where k >= 2. To solve this problem, two different algorithms are demonstrated: one which utilizes a linear approach, and another which utilizes a divide and conquer approach. The purpose of the project is to analyze the two algorithms in terms of the number of comparisons they make when finding the two smallest and largest integers and to compare the results. In addition to the analysis, a program is written in Java in order to implement the two algorithms, test them on a variety of arrays of random integers, and compare their performance based on the number of actual comparisons made.
+
+MMmain is used to execute the program. It utilizes the other files in order to access the necessary classes and methods to run successfully. MM2Linear contains all necessary methods for the linear algorithm, MM2DaC contains all necessary methods for the divide and conquer algorithm, and MM2Pair provides a class that creates an object which encapsulates a minmax2 4-array with the number of comparisons needed to find it from a source array.
